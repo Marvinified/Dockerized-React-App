@@ -1,0 +1,14 @@
+# production.yml
+
+version: '3.5'
+
+services:
+  # command: ["nginx", "-g", "daemon off;"]
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile-production
+    ports:
+      - 80:80
+    environment:
+      - NODE_ENV=production
