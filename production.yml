@@ -4,7 +4,7 @@ version: '3.5'
 
 services:
   # command: ["nginx", "-g", "daemon off;"]
-  web:
+  app:
     build:
       context: .
       dockerfile: Dockerfile-production
