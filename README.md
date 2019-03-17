@@ -6,7 +6,7 @@
   - Docker
   - NPM
 
-**Lets Setup our react project in docker
+**Lets Setup our react project in docker**
 
 > Clone the repo
   
@@ -28,7 +28,7 @@
       
   > Open you browser and go to [https://server-ip-or-domain-name](http://localhost:80)
  
- 
+ ###### Then you are ready to start developing!!!
   
 
 See tutorial @ [Dockerize a react app : Dev to Production](https://facebook.github.io/create-react-app/docs/getting-started) to setup on your own and understand how to use this project.
